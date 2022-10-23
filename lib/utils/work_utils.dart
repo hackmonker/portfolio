@@ -10,7 +10,7 @@ class WorkUtils {
 
   static const List<String> communityLinks = [
     "https://gips-guwahati.ac.in/",
-    "https://web.facebook.com/FlutterIslamabadPakistan/",
+    "https://avizenbio.com/",
     "https://dsc.community.dev/comsats-university-islamabad/",
     "https://sastaticket.pk/"
   ];
