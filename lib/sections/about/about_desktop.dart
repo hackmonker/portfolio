@@ -106,7 +106,7 @@ class AboutDesktop extends StatelessWidget {
                               ),
                               AboutMeData(
                                 data: "Age",
-                                information: "24",
+                                information: "22",
                               ),
                             ],
                           ),
@@ -116,11 +116,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "paulshuvs@gmail.com",
                               ),
                               AboutMeData(
                                 data: "From",
-                                information: "Attock, PK",
+                                information: "Assam, India",
                               ),
                             ],
                           ),
