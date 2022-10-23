@@ -33,23 +33,23 @@ class StaticUtils {
     "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
     "https://img.icons8.com/android/480/ffffff/twitter.png",
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-    "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-    "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
+    "https://img.icons8.com/material-rounded/344/ffffff/telegram-app.png",
+
   ];
 
   static const List<String> socialLinks = [
     "https://facebook.com/paulsshuvo",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
+    "https://instagram.com/shuvsp/",
+    "https://twitter.com/hackmonker",
     "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
-    "https://mhmzdev.medium.com"
+    "https://github.com/hackmonker",
+    "https://t.me/hackmonker"
   ];
 
   static const String resume =
       'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
 
-  static const String gitHub = 'https://github.com/mhmzdev';
+  static const String gitHub = 'https://github.com/hackmonker';
 }
 
 class BodyUtils {
