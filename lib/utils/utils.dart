@@ -33,15 +33,15 @@ class StaticUtils {
     "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
     "https://img.icons8.com/android/480/ffffff/twitter.png",
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-    "https://img.icons8.com/material-rounded/344/ffffff/telegram-app.png",
-
+    "https://img.icons8.com/material-rounded/384/ffffff/github.png",
+    "https://img.icons8.com/material-rounded/344/ffffff/telegram-app.png"
   ];
 
   static const List<String> socialLinks = [
     "https://facebook.com/paulsshuvo",
     "https://instagram.com/shuvsp/",
     "https://twitter.com/hackmonker",
-    "https://linkedin.com/in/mhmzdev",
+    "https://linkedin.com/in/shuvsp",
     "https://github.com/hackmonker",
     "https://t.me/hackmonker"
   ];
