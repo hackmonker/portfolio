@@ -25,7 +25,7 @@ Is a multi-platform portfolio for developers available for mobile, windows and w
 - Portfolio
 - Contact
 
-## 🔗 Useful links
+## 🔗 Useful link
 
 🌐 Web App: http://mhmz.dev
 
