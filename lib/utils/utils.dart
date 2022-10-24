@@ -10,13 +10,13 @@ class StaticUtils {
   static const String hi = 'assets/hi.gif';
 
   // photos
-  static const String mobilePhoto = 'assets/photos/mobile.png';
+  static const String mobilePhoto = '';
   static const String coloredPhoto = '';
-  static const String blackWhitePhoto = 'assets/photos/black-white.png';
+  static const String blackWhitePhoto = '';
 
   // work
   static const String dsc = 'assets/work/dsc.png';
-  static const String sastaticket = 'assets/work/st.png';
+//  static const String sastaticket = 'assets/work/st.png';
   static const String university = 'assets/work/gips.png';
   static const String fullterIsb = 'assets/work/avizen.png';
 
