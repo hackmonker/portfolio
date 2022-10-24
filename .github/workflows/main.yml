@@ -1,8 +1,9 @@
 name: Flutter Web
+
 on:
   push:
-    branches:
-      - master
+    branches: 
+        - master
 jobs:
   build:
     name: Build Web
