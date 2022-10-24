@@ -18,7 +18,7 @@ Get started now by cloning :)
 </div>
 
 ## 🧑‍💻 Devfolio
-Is a multi-platform portfolio for developers available for mobile, windows and web. Includes the following sections:
+Is a multi-platform portfoli for developers available for mobile, windows and web. Includes the following sections:
 - Ho
 - About
 - Service
