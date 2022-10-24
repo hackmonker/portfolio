@@ -102,15 +102,7 @@ class _ServiceCardState extends State<_ServiceCard> {
               Image.asset(
                 widget.serviceIcon,
                 height: AppDimensions.normalize(30),
-                color: widget.serviceIcon.contains(StaticUtils.openSource) &&
-                        !appProvider.isDark
-                    ? Colors.black
-                    : null,
-              ),
-              Image.asset(
-                widget.serviceIcon,
-                height: AppDimensions.normalize(30),
-                color: widget.serviceIcon.contains(StaticUtils.appDev) &&
+                color: widget.serviceIcon.contains(StaticUtils.openSource || StaticUtils.appDev) &&
                         !appProvider.isDark
                     ? Colors.black
                     : null,
