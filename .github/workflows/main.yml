@@ -4,6 +4,9 @@ on:
   push:
     branches: 
         - master
+  pull_request:
+    branches:
+        - master
 jobs:
   build:
     name: Build Web
@@ -15,16 +18,17 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: 'dev'
-      - run: flutter config --enable-web
       - run: flutter pub get
+      - run: flutter config --enable-web
       - run: flutter build web --release
-      - run: cd build/web
-      - run: git init 
-      - run: git config --global user.email hackmonker127001@protonmail.com
-      - run: git config --global user.name hackmonker
-      - run: git status
-      - run: git remote add origin https://${{secrets.commit_secret}}@github.com/hackmonker/portfolio.git
-      - run: git checkout -b gh-pages
-      - run: git add --all
-      - run: git commit -m "update"
-      - run: git push origin gh-pages -f
+      - run: |
+          cd build/web
+          git init 
+          git config --global user.email hackmonker127001@protonmail.com
+          git config --global user.name hackmonker
+          git status
+          git remote add origin https://${{secrets.commit_secret}}@github.com/hackmonker/portfolio.git
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "update"
+          git push origin gh-pages -f
