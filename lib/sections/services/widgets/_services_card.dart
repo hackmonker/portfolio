@@ -104,14 +104,14 @@ class _ServiceCardState extends State<_ServiceCard> {
                 height: AppDimensions.normalize(30),
                 color: widget.serviceIcon.contains(StaticUtils.openSource) &&
                         !appProvider.isDark ||
-                          widget.serviceIcon.contains(StaticUtils.appDev) &&
-                            !appProvider.isDark ||
-                              widget.serviceIcon.contains(StaticUtils.uiux) &&
-                                !appProvider.isDark ||
-                                  widget.serviceIcon.contains(StaticUtils.blog) &&
-                                    !appProvider.isDark ||
-                                      widget.serviceIcon.contains(StaticUtils.rapid) &&
-                                        !appProvider.isDark
+                       widget.serviceIcon.contains(StaticUtils.appDev) &&
+                        !appProvider.isDark ||
+                       widget.serviceIcon.contains(StaticUtils.uiux) &&
+                        !appProvider.isDark ||
+                       widget.serviceIcon.contains(StaticUtils.blog) &&
+                        !appProvider.isDark ||
+                       widget.serviceIcon.contains(StaticUtils.rapid) &&
+                        !appProvider.isDark
                     ? Colors.black
                     : null,
               ),
