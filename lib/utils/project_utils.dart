@@ -1,6 +1,6 @@
 class ProjectUtils {
   static const List<String> banners = [
-    "assets/projects/pharma.jpg",
+    "assets/projects/industry.jpg",
     "assets/projects/quranB.png",
 //    "assets/projects/medkitB.png",
 //    "assets/projects/hereiamB.png",
