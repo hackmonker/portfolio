@@ -24,6 +24,7 @@ class StaticUtils {
   static const String uiux = 'assets/services/linux.png';
   static const String blog = 'assets/services/blog.png';
   static const String appDev = 'assets/services/pharmacy.png';
+  static const String appDevBlack = 'assets/services/pharmacy_b.png';
   static const String rapid = 'assets/services/rapid.png';
   static const String openSource = 'assets/services/open.png';
   static const String openSourceBlack = 'assets/services/open_b.png';
