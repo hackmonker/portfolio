@@ -105,7 +105,13 @@ class _ServiceCardState extends State<_ServiceCard> {
                 color: widget.serviceIcon.contains(StaticUtils.openSource) &&
                         !appProvider.isDark ||
                           widget.serviceIcon.contains(StaticUtils.appDev) &&
-                            !appProvider.isDark
+                            !appProvider.isDark ||
+                              widget.serviceIcon.contains(StaticUtils.uiux) &&
+                                !appProvider.isDark ||
+                                  widget.serviceIcon.contains(StaticUtils.blog) &&
+                                    !appProvider.isDark ||
+                                      widget.serviceIcon.contains(StaticUtils.rapid) &&
+                                        !appProvider.isDark
                     ? Colors.black
                     : null,
               ),
