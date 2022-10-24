@@ -21,7 +21,7 @@ Get started now by cloning :)
 Is a multi-platform portfolio for developers available for mobile, windows and web. Includes the following sections:
 - Ho
 - About
-- Services
+- Service
 - Portfolio
 - Contact
 
