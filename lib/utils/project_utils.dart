@@ -1,7 +1,7 @@
 class ProjectUtils {
   static const List<String> banners = [
     "assets/projects/industry.jpg",
-//    "assets/projects/quranB.png",
+    "assets/projects/computer_application.png",
 //    "assets/projects/medkitB.png",
 //    "assets/projects/hereiamB.png",
 //    "assets/projects/covidB.png",
@@ -9,7 +9,7 @@ class ProjectUtils {
 
   static const List<String> icons = [
     "assets/work/avizen.png",
-//    "assets/projects/quran.png",
+    "assets/projects/eduenvision_logo.png",
 //    "assets/projects/medkit.png",
 //    "assets/projects/hereiam.png",
 //    "assets/projects/covid.png",
@@ -23,7 +23,7 @@ class ProjectUtils {
 
   static const List<String> titles = [
     "Avizen Biopharmaceutics",
-//    "The Holy Qur'an",
+    "Computer Application",
 //    "MedKit",
 //    "Here I Am",
 //    "COVID-19",
@@ -37,7 +37,7 @@ class ProjectUtils {
 
   static const List<String> description = [
     "A Biopharmaceutics Industry producing tablets, capsules along with cream and ointment based drugs. It is located in Uparhali, Assam. Completed 150 days of training according to PCI regulations.",
-//    "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md",
+    "Completed 12 months of training in computer application from EduEnvision, a government certified computer institute",
 //    "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.",
 //    "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.",
 //    "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.",
@@ -51,7 +51,7 @@ class ProjectUtils {
 
   static const List<String> links = [
     "https://avizenbio.com/",
-//    "https://github.com/mhmzdev/The_Holy_Quran_App",
+    "https://drive.google.com/file/d/1NNb5mMXNKlZZQANsZC702tQuj-57Yisr/view?usp=sharing",
 //    "https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter",
 //    "https://github.com/mhmzdev/Here-I-Am-Alert-App",
 //    "https://github.com/mhmzdev/Covid19-Tracker-App",
