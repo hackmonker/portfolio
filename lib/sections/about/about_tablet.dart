@@ -114,7 +114,7 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "paulshuvs@gmail.com",
+                    information: "mail@shuvsp.me",
                   ),
                   AboutMeData(
                     data: "From",

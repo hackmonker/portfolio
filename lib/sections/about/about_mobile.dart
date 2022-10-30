@@ -100,7 +100,7 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Email",
-            information: "paulshuvs@gmail.com",
+            information: "mail@shuvsp.me",
           ),
           Space.y!,
           OutlinedButton(
