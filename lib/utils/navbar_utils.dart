@@ -5,7 +5,7 @@ class NavBarUtils {
     'HOME',
     'ABOUT',
     'SERVICES',
-    'PROJECTS',
+    'PORTFOLIO',
     'CONTACT',
   ];
 
